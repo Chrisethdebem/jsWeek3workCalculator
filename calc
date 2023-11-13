@@ -1,0 +1,28 @@
+function calc() {
+
+    let op = prompt("Which operation do you want to perform? Check the list: +, -, x, ÷ ");
+    let operand1 = parseFloat(prompt("Write a value"));
+    let operand2 = parseFloat(prompt("Write a value"));
+   
+    
+    switch(op){
+        case "+": 
+            console.log(operand1 + operand2);
+            break;
+        
+        case "-": 
+            console.log(operand1 - operand2);
+            break;
+            
+        case "x": 
+            console.log(operand1 * operand2);
+            break;
+            
+        case "÷": 
+            console.log(operand1 / operand2);
+            break;
+    }
+
+}
+
+calc();
